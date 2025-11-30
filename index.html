@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruments I Like</title>
+    <link rel="stylesheet" href="/s/instrumentscool/styles.css">
+
+    <style>
+        /* Simple blue-themed button styling */
+        .blue-button {
+            background-color: #1e90ff;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+
+        .blue-button:hover {
+            background-color: #0f6cd1;
+            transform: scale(1.05);
+        }
+    </style>
+
+    <script defer>
+        // Background color and message
+        document.addEventListener("DOMContentLoaded", () => {
+            document.body.style.backgroundColor = "#4682B4";
+
+            const msg = document.createElement("p");
+            msg.textContent = "I like the color blue!";
+            msg.style.color = "white";
+            msg.style.fontSize = "20px";
+            document.body.appendChild(msg);
+        });
+    </script>
+</head>
+<body>
+    <h1>Welcome to My Instrument Page!</h1>
+
+    <p>I really like musical instruments. They sound cool and are fun to learn.</p>
+
+    <h2>My Favorite Instruments</h2>
+    <ul style="color:white;">
+        <li>Clarinet<br><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqaHAoJMYFFNKbK34cI8wjZs7eOVTkYNk_5zprXESqA&s=10"alt="Clarinet style="width:200px; border-radius:8px;">></li>
+        <li>Viola<br><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCZpy4aU6QcoxkpCXrrxdPJgPrI6QszsmCNJrX33XVaA&s=10</li>
+        <li>Bassoon<br><img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/501496/preview"</li>
+    </ul>
+
+    <h2>My Favorite Piece</h2>
+    <p style="color:white;">My favorite piece is <strong>“Bach: Cello Suite No. 1 in G major”</strong>.</p>
+
+    <!-- Blue themed button with hover effect -->
+    <a href="https://youtube.com/shorts/WpQJZAlK9XE?si=WtEj7eFhkQXR9RsW" target="_blank">
+        <button class="blue-button">Listen to It</button>
+    </a>
+
+    <p style="color:white;">One day I want to learn even more instruments!</p>
+</body>
+</html>
